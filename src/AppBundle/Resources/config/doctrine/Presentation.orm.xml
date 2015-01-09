@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\Presentation" table="presentation">
+    <indexes>
+      <index name="event" columns="fk_event_id"/>
+    </indexes>
+    <id name="presentationId" type="integer" column="presentation_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="presentationName" type="string" column="presentation_name" length="255" nullable="true"/>
+    <field name="fkEventId" type="integer" column="fk_event_id" nullable="true"/>
+    <field name="presentationStartDate" type="datetime" column="presentation_start_date" nullable="true"/>
+    <field name="presentationEndDate" type="datetime" column="presentation_end_date" nullable="true"/>
+  </entity>
+</doctrine-mapping>

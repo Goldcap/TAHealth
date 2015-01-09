@@ -1,0 +1,252 @@
+/* CSS Document */
+#div01 #header {
+  background-color: #B8D37D;
+  height: 60px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+#footer {
+  background-color: #B8D37D;
+  height: 20px;
+  color: #000;
+  padding: 3px 10px 3px 10px;
+}
+
+#footer .left {
+  float: left; 
+}
+
+#footer .right {
+  float: right; 
+}
+
+.dijitAccordionTitle {
+  background-color: #005588 !important;
+}
+
+#TabContainer {
+  width: 900px !important;
+  height: 600px;
+  text-align: left;
+}
+
+.sortselect {
+  border: 1px solid grey;
+}
+
+.ui-accordion-data {
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: left !important;
+  font-size: 10px;
+  color: #ccc;
+}
+
+.ui-accordion-data a {
+  color: #666;
+  text-decoration: none;
+}
+
+#results {
+  width: 100%;
+}
+/* Wiki Entries */
+.column_Title {
+  float: left;
+  width: 150px;
+}
+
+.column_Date_Created {
+  float: left;
+  width: 130px;
+}
+
+.column_Start_Date {
+  float: left;
+  width: 130px;
+}
+
+.column_Label {
+  float: left;
+  width: 180px;
+}
+
+.column_End_Date,.column_Date {
+  float: left;
+  width: 130px;
+}
+
+
+.column_HitCount {
+  float: left;
+  width: 70px;
+}
+
+.column_Relevancy {
+  float: left;
+  width: 70px;
+}
+
+/* Google Entries */
+.column_count {
+  float: left;
+  width: 40px;
+}
+
+.column_Domain {
+  float: left;
+  width: 200px;
+}
+
+.column_Title {
+  float: left;
+  width: 300px;
+}
+
+.column_Keyword {
+  float: left;
+  width: 250px;
+}
+
+.column_LastRank {
+  float: left;
+  width: 100px;
+}
+
+.column_DateChecked {
+  float: left;
+  width: 150px;
+}
+
+.column_Firstname, .column_Lastname {
+  float: left;
+  width: 80px;
+}
+
+.column_Reservation {
+  float: left;
+  width: 80px;
+}
+
+.column_Guests {
+  float: left;
+  width: 60px;
+}
+
+.column_Email {
+  float: left;
+  width: 150px;
+  overflow: hidden;
+}
+
+.column_Nickname {
+  float: left;
+  width: 150px;
+  overflow: hidden;
+}
+
+.column_Name {
+  float: left;
+  width: 250px;
+  overflow: hidden;
+}
+
+.column_Password {
+  float: left;
+  width: 70px;
+}
+
+.column_Page {
+  float: left;
+  width: 250px;
+}
+
+.column_City {
+  float: left;
+  width: 100px;
+}
+
+.column_St {
+  float: left;
+  width: 20px;
+}
+
+.column_Cnt {
+  float: left;
+  width: 20px;
+}
+
+.column_Total {
+  float: left;
+  width: 50px;
+}
+
+.column_Status {
+  float: left;
+  width: 80px;
+}
+
+.column_Date_Created {
+  float: left;
+  width: 150px;
+}
+
+.column_PromotionName {
+  float: left;
+  width: 200px;
+}
+
+.column_Type {
+  float: left;
+  width: 150px;
+}
+
+.column_Amount {
+  float: left;
+  width: 60px;
+}
+
+.column_StartDate, .column_EndDate {
+  float: left;
+  width: 150px;
+}
+.column_Image,.column_Color {
+  float: left;
+  width: 50px;
+  border: 1px solid transparent;
+}
+.column_Sku {
+  float: left;
+  width: 90px;
+}
+.column_Size {
+  float: left;
+  width: 120px;
+  border: 1px solid transparent;
+}
+.column_ID {
+  float: left;
+  width: 70px;
+}
+.timeplot-message {
+  font-size: 14px !important;
+  font-weight: normal !important;
+}
+.plotcontrols {
+  font-size: 12px !important;
+}
+#keywordContainer {
+  position: absolute !important;
+  top: 300px;
+  left: 10px;
+  width: 100%;
+  height: 320px;
+}
+.timeplot-grid-label {
+  /*display: none !important;*/
+}
+
+.timeplot-div {
+  font-size: 12px;
+}

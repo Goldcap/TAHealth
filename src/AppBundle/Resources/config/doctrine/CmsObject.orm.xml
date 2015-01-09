@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\CmsObject" table="cms_object">
+    <id name="cmsObjectId" type="integer" column="cms_object_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="cmsObjectDateCreated" type="datetime" column="cms_object_date_created" nullable="true"/>
+    <field name="fkCmsObjectCategory" type="integer" column="fk_cms_object_category" nullable="true"/>
+    <field name="cmsObjectCounter" type="integer" column="cms_object_counter" nullable="true"/>
+    <field name="cmsObjectOwner" type="string" column="cms_object_owner" length="255" nullable="true"/>
+    <field name="cmsObjectUuid" type="string" column="cms_object_uuid" length="32" nullable="true"/>
+    <field name="cmsObjectLive" type="integer" column="cms_object_live" nullable="true"/>
+    <field name="cmsObjectCurrentRev" type="integer" column="cms_object_current_rev" nullable="true"/>
+  </entity>
+</doctrine-mapping>

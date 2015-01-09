@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\AdminUser" table="admin_user">
+    <id name="adminUserId" type="integer" column="admin_user_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="adminUserFname" type="string" column="admin_user_fname" length="255" nullable="true"/>
+    <field name="adminUserLname" type="string" column="admin_user_lname" length="255" nullable="true"/>
+    <field name="adminUserEmail" type="string" column="admin_user_email" length="255" nullable="true"/>
+    <field name="adminUserPassword" type="string" column="admin_user_password" length="255" nullable="true"/>
+    <field name="adminUserUal" type="string" column="admin_user_ual" length="255" nullable="true"/>
+    <field name="adminUserPhone" type="string" column="admin_user_phone" length="255" nullable="true"/>
+    <field name="adminUserCell" type="string" column="admin_user_cell" length="255" nullable="true"/>
+  </entity>
+</doctrine-mapping>

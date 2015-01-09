@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\CmsObjectSearchIndex" table="cms_object_search_index">
+    <id name="cmsObjectSearchIndexId" type="integer" column="cms_object_search_index_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="fkCmsObjectId" type="integer" column="fk_cms_object_id" nullable="true"/>
+    <field name="cmsObjectWord" type="string" column="cms_object_word" length="255" nullable="true"/>
+    <field name="cmsObjectWeight" type="string" column="cms_object_weight" length="255" nullable="true"/>
+    <field name="fkCmsObjectRev" type="integer" column="fk_cms_object_rev" nullable="true"/>
+  </entity>
+</doctrine-mapping>

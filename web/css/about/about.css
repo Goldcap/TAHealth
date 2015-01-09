@@ -1,0 +1,47 @@
+/* main content container*/
+#centerdiv {
+  float: left;
+  padding-left: 180px !important;   /* LC fullwidth */
+  padding-right: 30px !important;  /* RC fullwidth + CC padding */
+  min-height: 500px;
+  width: 708px;
+}
+
+* html #centerdiv {
+  padding-right: 0px !important;  /* RC fullwidth + CC padding */
+  padding-left: -100px !important;
+  height: 600px;
+  width: 730px !important;
+}
+
+#div02 {
+	padding: 20px 0px 0px 0px !important;
+}
+
+/* left side content */
+#div03{
+  padding: 20px 0px 0px 0px !important;
+  width: 180px !important;          /* LC width */
+  right: 180px !important;          /* LC fullwidth + CC padding */
+}
+
+* html #div03 {
+  float: left;
+  position: relative;
+  left: -50px;
+  width: 180px !important;   
+}
+
+#div03 .homeright {
+  min-height: 124px;
+  margin-top: 12px;
+  background: #eee;
+  padding: 4px;
+  font-size: 10px !important;
+}
+
+.menu-height {
+  margin-top: 10px;
+  padding-left: 10px !important;
+
+}

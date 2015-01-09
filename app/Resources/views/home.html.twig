@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        
+        <link href="/css/tahealth.css" rel="stylesheet" type="text/css" />
+        <link href="/js/jquery/ui/themes/smoothness/jquery-ui-1.8.1.custom.css" rel="stylesheet" type="text/css" />
+        <link href="/js/SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        
+        <script type="text/javascript" src="/js/jquery/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="/js/SpryAssets/SpryMenuBar.js"></script>
+        
+    </head>
+    <body>
+        
+                        {% block body %}{% endblock %}
+                    
+            
+        <script type="text/javascript" src="/js/jquery/jquery.tools.min.js"></script>
+        <script type="text/javascript" src="/js/jquery/ui/jquery-ui-1.8.1.custom.min.js"></script>  
+        
+        <script type="text/javascript" src="/js/swfobject.js"></script>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

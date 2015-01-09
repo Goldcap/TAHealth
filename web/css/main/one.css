@@ -1,0 +1,26 @@
+/* main content container*/
+#centerdiv {
+  float: left;
+  padding-left: 10px !important;   /* LC fullwidth */
+  padding-right: 10px !important;  /* RC fullwidth + CC padding */
+  min-height: 500px;
+  width: 900px !important;
+}
+
+#div02 {
+  width: 900px !important;
+}
+
+h1 {
+  font-size: 15px !important;
+}
+
+#Event_wrapper, #register_wrapper, #Evaluation_wrapper {
+  padding: 30px 0px 20px 200px;
+  
+}
+
+#Sitemap_wrapper {
+  padding: 30px 0px 20px 180px;
+  
+}

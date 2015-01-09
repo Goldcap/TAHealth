@@ -1,0 +1,18 @@
+<span class="DojoCarouselContainer" dojoAttachPoint="DojoCarouselContainer">
+  <div dojoAttachPoint="DojoCarouselLoader" class="DojoCarouselLoader" ><img src="/js/dojo/dijit/themes/tundra/images/loading.gif" /> Loading...</div>
+  <div class="DojoCarouselContainerScrollLeft" dojoAttachPoint="DojoCarouselContainerScrollLeft">
+    <input dojoAttachPoint="DojoCarouselNavPrev" type="image" src="/images/CarouselLeft.jpg" border="0">
+  </div>
+  <div dojoAttachPoint="DojoCarouselInterface" class="DojoCarouselInterface">
+    <div dojoAttachPoint="DojoCarouselViewingArea">
+      <div dojoAttachPoint="DojoCarouselImageContainer" class="DojoCarouselImageContainer">
+      </div>
+    </div>
+    <div id="controls">
+      <div dojoAttachPoint="DojoCarouselVerbiage"></div>
+    </div>
+  </div>
+  <div class="DojoCarouselContainerScrollRight" dojoAttachPoint="DojoCarouselContainerScrollRight">
+    <input dojoAttachPoint="DojoCarouselNavNext" type="image" src="/images/CarouselRight.jpg" border="0">
+  </div>
+</span>

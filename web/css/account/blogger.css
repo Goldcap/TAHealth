@@ -1,0 +1,24 @@
+#search_result_wrapper {
+  margin-top: 30px;
+  min-height: 300px;
+}
+.column_Title {
+  float: left;
+  width: 150px;
+}
+.column_DateCreated {
+  float: left;
+  width: 150px;
+}
+.column_HitCount {
+  float: left;
+  width: 100px;
+}
+.column_View {
+  float: left;
+  width: 50px;
+}
+.column_Edit {
+  float: left;
+  width: 50px;
+}

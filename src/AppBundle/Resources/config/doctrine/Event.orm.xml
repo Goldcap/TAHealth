@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\Event" table="event">
+    <indexes>
+      <index name="sponsor" columns="fk_sponsor_id"/>
+    </indexes>
+    <id name="eventId" type="integer" column="event_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="eventName" type="string" column="event_name" length="255" nullable="true"/>
+    <field name="eventStartDate" type="datetime" column="event_start_date" nullable="true"/>
+    <field name="eventEndDate" type="datetime" column="event_end_date" nullable="true"/>
+    <field name="fkSponsorId" type="integer" column="fk_sponsor_id" nullable="true"/>
+  </entity>
+</doctrine-mapping>

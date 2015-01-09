@@ -1,0 +1,42 @@
+<div dojoAttachPoint="DojoLoginContainer">
+<span dojoAttachPoint="DojoLoginLoader" class="dijitContentPaneLoading"></span>
+<span id="DojoLoginPane" style="display:none">
+<br />
+<br />
+<form dojoAttachPoint="DojoLoginForm" id="login" name="login" method="post" action="#" target="_top">
+<table width="195" border="0" cellspacing="0" cellpadding="0">        
+  <tr>
+    <td>
+        <input dojoAttachPoint="DojoLoginEmail" name="email" type="text" size="20" maxlength="50" value="Enter Your Email" class="keywordBoxEnter">
+      </td>                  
+    </tr>
+    <tr>
+
+      <td>
+         <input dojoAttachPoint="DojoLoginPassword" name="password" type="text" size="20" maxlength="50" value="Enter Your Password" class="keywordBoxEnter">
+      </td>                  
+    </tr>
+    <tr>
+      <td>
+          <input type="image" src="/images/login.jpg" name="submit" width="113" height="35" border="0" id="Image5" alt="Login">
+      </td>                  
+    </tr>
+    <tr>
+
+      <td>
+          <a href="/password">Forget your password?</a>
+      </td>                  
+    </tr>
+    <input type="hidden" name="styroname" value="Login" />  
+</table>
+</form>
+<span dojoAttachPoint="DojoLoginResult"></span>
+</span>
+<span id="DojoLoginWindow" style="display:none">
+  <br />
+
+  Welcome back, <span id="DojoLoginNickname"></span><br /><br />
+  <a href="/account">My Account</a><br />
+  <a href="/logout">Logout</a><br />
+</span>
+</div>

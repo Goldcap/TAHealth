@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\Reservation" table="reservation">
+    <id name="reservationId" type="integer" column="reservation_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="reservationNotes" type="text" column="reservation_notes" length="65535" nullable="true"/>
+    <field name="reservationNumberGuests" type="integer" column="reservation_number_guests" nullable="true"/>
+    <field name="reservationStartDate" type="datetime" column="reservation_start_date" nullable="true"/>
+    <field name="reservationEndDate" type="datetime" column="reservation_end_date" nullable="true"/>
+    <field name="reservationCreateDate" type="datetime" column="reservation_create_date" nullable="true"/>
+    <field name="fkAdminUserId" type="integer" column="fk_admin_user_id" nullable="true"/>
+    <field name="fkUserId" type="integer" column="fk_user_id" nullable="false"/>
+  </entity>
+</doctrine-mapping>

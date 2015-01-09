@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests
+END
+BuilderArguments.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/BuilderArguments.html
+END
+sprintf.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/sprintf.js
+END
+Builder.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/Builder.js
+END
+string.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/string.js
+END
+test_BidiComplex.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/test_BidiComplex.html
+END
+lipsum.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/lipsum.js
+END
+BuilderPerf.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/BuilderPerf.html
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/notes.txt
+END
+peller.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/peller.html
+END
+PerfFun.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/PerfFun.html
+END
+BidiComplex.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/BidiComplex.js
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/string/tests/runTests.html
+END

@@ -1,0 +1,45 @@
+.column_Rank {
+  float: left;
+  width: 50px;
+}
+
+.column_Sku {
+  float: left;
+  width: 70px;
+}
+.column_Name {
+  float: left;
+  width: 200px;
+}
+.column_ArtistName {
+  float: left;
+  width: 120px;
+}
+.column_Description {
+  float: left;
+  width: 150px;
+}
+.column_Cost {
+  float: left;
+  width: 50px;
+}
+.column_LastUpdated {
+  float: left;
+  width: 150px;
+}
+.column_New {
+  float: left;
+  color: #cc0000;
+}
+.column_Color {
+  float: left;
+  width: 100px;
+}
+.column_Size{
+  float: left;
+  width: 170px;
+}
+.column_New{
+  float: left;
+  width: 50px;
+}

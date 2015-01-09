@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\ClientOrg" table="client_org">
+    <id name="clientOrgId" type="integer" column="client_org_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="clientOrgName" type="string" column="client_org_name" length="255" nullable="true"/>
+    <field name="fkClientOrgAdminId" type="integer" column="fk_client_org_admin_id" nullable="true"/>
+  </entity>
+</doctrine-mapping>

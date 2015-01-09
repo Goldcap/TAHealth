@@ -1,0 +1,71 @@
+/*Start Legacy CSS */
+.pmenu
+	{
+		margin-top: 5px;
+		padding-top: 2px;
+		border-top: 1px solid #C94DFB;
+		color: #C94DFB;
+		text-align: center;
+		width: 616px;
+	}
+.pspan
+{
+	width: 18px;
+}
+.pmenu A:active
+{
+	color: #C94DFB;
+	font-size: 10px;
+	text-align:center;
+	text-decoration:underline;
+}
+.pmenu A:link
+{
+	color: #C94DFB;
+	font-size: 10px;
+	text-align:center;
+	text-decoration:none;
+}
+.pmenu A:visited
+{
+	color: #C94DFB;
+	font-size: 10px;
+	text-align:center;
+	text-decoration:none;
+}
+.pmenu A:hover
+{
+	color: #C94DFB;
+	font-size: 10px;
+	text-align:center;
+	text-decoration:underline;
+}
+.leftmenulink
+{
+	padding-right: 9px;
+}
+.centermenulink
+{
+	padding: 0 9px 0 9px
+}
+.rightmenulink
+{
+	padding-left: 9px;
+}
+
+.label, .footer-format { 
+font-size: 10px !important;
+cursor: pointer; 
+}
+
+.legacyleftmenu {
+  float: left;
+  margin-top: 25px;
+  width: 150px;
+  font-size: 10px;
+}
+
+.menu-height {
+  width: 140px !important;
+}
+/*End Legacy CSS */

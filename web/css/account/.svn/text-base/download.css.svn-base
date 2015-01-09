@@ -1,0 +1,43 @@
+
+#titlebar {
+  margin-top: 10px;
+}
+.downloads {
+  width: 520px !important;
+}
+.column_image {
+  float: left;
+  width: 60px;
+}
+.column_design {
+  float: left;
+  width: 100px;
+}
+.column_resize {
+  float: left;
+  width: 100px;
+}
+.column_download {
+  float: left;
+  width: 80px;
+}
+.column_view {
+  float: left;
+  width: 80px;
+}
+.column_remaining {
+  float: left;
+  width: 40px;
+}
+.column_order_date {
+  float: left;
+  width: 130px;
+}
+.column_order {
+  float: left;
+  width: 160px;
+}
+.column_status {
+  float: left;
+  width: 110px;
+}

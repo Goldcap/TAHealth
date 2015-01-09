@@ -1,0 +1,138 @@
+h2.wikisub {
+  font-weight: bold;
+  border-bottom: 0px;
+  font-size: 21px; 
+}
+h4.wikisub {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+h4.wikisub .edit {
+  margin-left: 10px;
+}
+#results table {
+  width: 100%;
+}
+.edit {
+  font-size: 10px !important;
+  font-weight: normal;
+}
+#ttj_wiki_entry {
+  width: 100%;
+  float: left;
+}
+
+#ttj_wiki_entry td.articletext li {
+  margin-left: 10px;
+}
+
+#ttj_wiki_entry td.articletext p {
+  margin-top: 10px !important;
+  margin-bottom: 5px !important;
+}
+
+#ttj_wiki_entry td.articletext h2 {
+  font-size: 11px;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+  font-weight: bold;
+  border-bottom: 0px !important;
+}
+#logout {
+  margin-top: 20px;
+}
+big {
+  font-size: 14px;
+  font-weight: bold;
+}
+.wiki_bluerule {
+  padding: 5px;
+}
+.wiki_image {
+  padding: 5px;
+}
+.wiki_title {
+  padding-top: 5px;
+  padding-bottom: 2px;
+  font-size: 14px;
+}
+.wiki_date {
+  padding-bottom: 2px;
+}
+
+
+.DojoCarouselContainer {
+  position: relative;
+  float: left;
+  width: 520px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #92B8EB;
+}
+
+.DojoCarouselInterface {
+  position: relative;
+  overflow:hidden;
+  margin-left: 30px;
+  z-index: 1;
+}
+
+.DojoCarouselInterface span div {
+  margin-left: 5px;
+}
+
+.DojoCarouselContainerScrollLeft {
+  position: absolute;
+  float: left;
+  left: 10px;
+  top: 60px;
+  z-index: 4;
+}
+
+.DojoCarouselContainerScrollRight {
+  position: absolute;
+  float: left;
+  top: 60px;
+  z-index: 4;
+}
+
+.DojoCarouselLoader {
+  position: absolute;
+  top:40px;
+  left: 15px;
+}
+.DojoCarouselSpan {
+  position: absolute;
+  float: left !important;
+  top: 0px;
+  left: 0px;
+}
+
+.DojoCarouselThumbnailWrapper {
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+}
+
+.DojoCarouselThumbnailTitle {
+  position: absolute;
+  top: 145px;
+  width: 124px;
+  overflow: hidden;
+  display: none;
+}
+
+.DojoCarouselText {
+  float: left;
+}
+
+.DojoCarouselTextLeft {
+  
+}
+
+.DojoCarouselTextRight {
+  position: absolute;
+  float: right; 
+  right: 15px;
+}

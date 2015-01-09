@@ -1,0 +1,82 @@
+/* main content container*/
+#centerdiv {
+  float: left;
+  padding-left: 10px !important;   /* LC fullwidth */
+  padding-right: 200px !important;  /* RC fullwidth + CC padding */
+}
+
+#div02 {
+  float: left;
+  margin-right: 10px !important;
+}
+
+#div02 #top {
+  margin-top: 10px;
+  min-height: 260px;
+}
+
+#div02 #left {
+  margin-right: 10px;
+}
+
+#div02 #left, #div02 #right {
+  float: left;
+  min-height: 180px;
+  width: 330px;
+  background: #f9fbed;
+  font-size: 10px !important;
+  border: 1px solid black;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+
+/* right side content */
+#div04 {
+  width: 180px !important;             /* RC width */
+	padding: 0px 0px 20px 0px !important;          /* RC padding */
+	margin-right: -100%;
+	background: url(/images/ta_health_right_bg.gif) top repeat-y;
+}
+
+#div04 .homeright {
+  float: left;
+  padding: 10px 0px 0px 0px;
+  font-size: 10px !important;
+}
+
+#div04 .homeright .homeright_content {
+  float: left;
+  background: #F8FAEC;
+  border: 1px solid black;
+}
+
+#div04 .homeright h3 {
+  margin: 0px;
+  background: url(/images/ta_health_homeright_bg.gif) top no-repeat;
+  padding: 3px;
+  padding-left: 25px;
+  font-size: 10px;
+}
+
+#div04 .homeright p {
+  padding: 4px;
+}
+
+.homebottom h4 {
+  margin: 0px;
+  padding: 3px;
+  font-size: 14px;
+}
+
+.sponsor_main h2 {
+  margin: 0px;
+  padding: 3px;
+  font-size: 20px;
+  color: #e9823d;
+}
+
+h1 {
+  font-size: 15px !important;
+}
+

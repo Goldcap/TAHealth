@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\CacheUrl" table="cache_url">
+    <id name="cacheUrlId" type="integer" column="cache_url_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="cacheUrl" type="string" column="cache_url" length="255" nullable="true"/>
+    <field name="cacheDate" type="datetime" column="cache_date" nullable="true"/>
+    <field name="cacheHost" type="string" column="cache_host" length="255" nullable="true"/>
+    <field name="cacheBuildTime" type="float" column="cache_build_time" precision="10" scale="0" nullable="true"/>
+    <field name="cacheBrowser" type="string" column="cache_browser" length="255" nullable="true"/>
+  </entity>
+</doctrine-mapping>

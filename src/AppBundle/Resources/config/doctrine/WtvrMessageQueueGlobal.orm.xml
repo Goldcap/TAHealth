@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\WtvrMessageQueueGlobal" table="wtvr_message_queue_global">
+    <id name="wtvrMessageQueueId" type="integer" column="wtvr_message_queue_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="wtvrMessageRecipient" type="string" column="wtvr_message_recipient" length="255" nullable="true"/>
+    <field name="wtvrMessageSender" type="string" column="wtvr_message_sender" length="255" nullable="true"/>
+    <field name="wtvrMessageRecipientFname" type="string" column="wtvr_message_recipient_fname" length="255" nullable="true"/>
+    <field name="wtvrMessageRecipientLname" type="string" column="wtvr_message_recipient_lname" length="255" nullable="true"/>
+    <field name="wtvrMessageSenderFname" type="string" column="wtvr_message_sender_fname" length="255" nullable="true"/>
+    <field name="wtvrMessageSenderLname" type="string" column="wtvr_message_sender_lname" length="255" nullable="true"/>
+    <field name="wtvrMessageSubject" type="string" column="wtvr_message_subject" length="255" nullable="true"/>
+    <field name="wtvrMessageBody" type="text" column="wtvr_message_body" length="65535" nullable="true"/>
+    <field name="wtvrMessageText" type="text" column="wtvr_message_text" length="65535" nullable="true"/>
+    <field name="wtvrMessageCreated" type="datetime" column="wtvr_message_created" nullable="true"/>
+    <field name="wtvrMessageSent" type="datetime" column="wtvr_message_sent" nullable="true"/>
+    <field name="wtvrMessageType" type="string" column="wtvr_message_type" length="20" nullable="true"/>
+    <field name="wtvrMessageResponse" type="string" column="wtvr_message_response" length="255" nullable="true"/>
+  </entity>
+</doctrine-mapping>

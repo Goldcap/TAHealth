@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\CsTicketStatus" table="cs_ticket_status">
+    <id name="csTicketStatusId" type="integer" column="cs_ticket_status_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="csTicketStatusName" type="string" column="cs_ticket_status_name" length="255" nullable="true"/>
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,85 @@
+.search_result td,.search_result tr, .search_result h1 {
+  font-size: 11px !important;
+}
+
+.design_thumb {
+  padding-bottom: 5px;
+}
+.download_design {
+  padding-bottom: 10px;
+}
+
+.design_thumb,.wishlist_add,.download_design {
+  font-size: 10px;
+  text-align: center !important;
+}
+
+#div06{
+  margin: 0px !important;
+  right: 0px !important;
+}
+
+#wishlist {
+  background-color: #5BB2E2;
+  background-image: url(/images/wishlist_background.jpg);
+  background-repeat: repeat-x;
+  background-position: top;
+  height: 108px;
+}
+
+#wishlist a {
+  font-family: Verdana; 
+  font-size: 11px; 
+  font-weight: bold;
+}
+
+#wishlist .leftcol {
+  position: relative;
+  float: left;
+  top: 35px;
+}
+#wishlist .centercol {
+  position: relative;
+  left: -30px;
+}
+
+#wishlist .rightcol {
+  position: relative;
+  float: right;
+  top: -3px;
+}
+
+#wishlist .products {
+  position: relative;
+  float: left;
+  width: 100%;
+  top: 5px;
+  height: 50px;
+  text-align: left;
+}
+#wishlist .products .items {
+  position: relative;
+  float: left;
+  top: -5px;
+}
+#wishlist .dl_item {
+  position: relative;
+  float: left;
+  width: 100px;
+}
+#wishlist .dl_item img {
+  margin-right: 5px;
+}
+#wishlist .dl_item a{
+  font-size: 10px !important;
+  font-weight: normal !important;
+}
+#wishlist .dl_link {
+  position: relative;
+  float: left;
+  clear: top;
+}
+.makeWish,.whystencil {
+  color: #005588; 
+  cursor: pointer;
+}

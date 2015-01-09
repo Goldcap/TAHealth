@@ -1,0 +1,1 @@
+.dojoxScrollWindow {position:relative;}.dojoxScrollHelper .helperInner {visibility: hidden; height: 4px !important; font-size: 4px;}.dojoxScrollHelper {border:1px solid #ccc; width:4px; background:#fff; height:4px !important; padding: 0px !important; margin: 0px !important; position:absolute; top:4px; left:4px;}.dojoxScrollWrapper {width:100%;}

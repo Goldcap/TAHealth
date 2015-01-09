@@ -1,0 +1,41 @@
+/*Start WTVR CSS */
+#results {
+  position: relative;
+  float: left;
+}
+#titlebar {
+  position: relative;
+  float: left;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.count {
+  position: relative;
+  float: left;
+  margin-top: 15px;
+}
+.pagination {
+  position: relative;
+  float: right;
+  color: #004091;
+  margin-top: 15px;
+}
+.pagenum_selected {
+  font-weight: bold;
+}
+.pagenum_next {
+  margin-left: 5px;
+}
+.sort {
+  position: absolute;
+  right: 0px;
+  margin-top: -20px;
+}
+.sortselect {
+  font-size: 10px;
+  height: 16px;
+}
+.error {
+  color: red;
+}
+/*End WTVR CSS */

@@ -1,0 +1,385 @@
+#centerdiv {
+  padding: 0px !important;
+}
+
+#checkout {
+  margin-left: 200px;
+  width: 500px;
+}
+#checkoutDialog {
+  width: 400px;
+  height: 300px;
+}
+
+#download_form .small {
+  width: 50px;
+}
+
+#download_form .medium {
+  width: 100px;
+}
+
+#download_form .extended {
+  width: 150px;
+}
+
+#download_form .large {
+  width: 250px;
+}
+
+#download_receipt {
+  background: #DBEEF9;
+  border: 1px solid #808080;
+  padding: 8px;
+}
+
+#design_download {
+  margin-top: 10px;
+  font-weight: bold;
+  height: 100px;
+}
+
+#design_download p{
+  float: left;
+  padding: 5px;
+}
+
+#design_download .tblHeader{
+  background: #ccc;
+}
+
+#design_download .design_info{
+  float: left;
+  width: 269px;
+}
+#design_download .design_ref{
+  float: left;
+  width: 210px;
+}
+#design_download .design_sencil{
+  float: left;
+  width: 210px;
+}
+#design_download .design_time{
+  float: left;
+  width: 200px;
+}
+
+#Contact_wrapper {
+  width: 100%;
+}
+.account-help {
+  margin-top: 10px;
+}
+
+.divider
+{
+	margin-top: 10px;
+	height: 1px;
+	color: #005588;
+}
+.light-divider
+{
+	margin-top: 10px;
+	height: 1px;
+	color: #b1cfdc;
+}
+.key
+{
+	padding: 0 15px 0 0;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+	color: #000;
+}
+.value
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	}
+.value-login
+{
+	font-size: 10px;
+}
+.required-key
+{
+	padding: 0 15px 0 0;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+	color: red;
+}
+.required-value
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: red;
+}
+.required-text
+{
+  float: left;
+	font-size: .9em;
+	color: red;
+}
+A.small-link:active
+{
+	TEXT-DECORATION: none;
+	font-size: 10px;
+}
+A.small-link:link
+{
+	TEXT-DECORATION: none;
+	font-size: 10px;
+}
+A.small-link:visited
+{
+	TEXT-DECORATION: none;
+	font-size: 10px;
+}
+A.small-link:hover
+{
+	TEXT-DECORATION: underline;
+	font-size: 10px;
+}
+A.signin:active
+{
+	TEXT-DECORATION: none;
+	font-weight: bold;
+}
+A.signin:link
+{
+	TEXT-DECORATION: none;
+	font-weight: bold;
+}
+A.signin:visited
+{
+	TEXT-DECORATION: none;
+	font-weight: bold;
+}
+A.signin:hover
+{
+	TEXT-DECORATION: underline;
+	font-weight: bold;
+}
+.page-header 
+{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px 0 5px 0;
+}
+.page-sub-header 
+{
+	font-size: 10px;
+	padding: 5px 0 0 0;
+}
+.safe-and-secure {
+	padding-top: 5px;
+}
+.sec-code
+{
+	font-size: .8em;
+}
+.sec-code-red
+{
+	font-size: .8em;
+	color: red;
+}
+INPUT.TEXT.card-code
+{
+	font-size: .75em;
+}
+.existing-customer
+{
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.invalid-credentials
+{
+	padding-bottom: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+	color: red;
+}
+.sign-in-button
+{
+	padding-top: 10px;
+}
+.verify-email
+{
+	font-size: 10px;
+	vertical-align: middle;
+}
+.sign-in
+{
+	width: 99%;
+	background: #b1cfdc;
+	padding: 10px 0 10px 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+	border: 1px solid #008ebb;
+}
+.info_box {
+	visibility: hidden;
+	position:absolute;
+    width: 400px;
+	padding: 0;
+	background-color: #005588; /* #5DB0E2; */
+	border: solid black 1px;
+	z-index: 1000;
+	position: absolute;
+}
+.info_title{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #005588; /* #005588; */
+	border: solid #FFFFFF 1px;
+ 	padding: 5px 3px 5px 6px;
+	margin: 0;
+	display: block;
+	height: 18px;
+	vertical-align: middle;
+}
+
+.info_content {
+	display: block;
+	clear: both;
+	color: #000;
+	padding: 5px 5px 5px 5px;
+	font-size: 12px;
+	margin: 0;
+	background-color: #FFFFFF;
+	overflow:auto;
+	height:120px;
+}
+.info_close{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: right;
+	cursor: pointer;
+}
+.gtotals-key
+{
+	background: #b1cfdc;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	padding: 5px 5px 2px 0;
+	margin: 0;
+	color: #005588;
+}
+.gtotals-value
+{
+	background: #b1cfdc;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	padding: 5px 5px 2px 4px;
+	color: #005588;
+}
+form {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.download-box
+{
+	margin-top: 5px;
+	border: 1px solid #005588;
+}
+.download-header
+{
+	background-color: #005588;
+	font-weight: bold;
+	padding: 5px 15px 7px 15px;
+
+}
+.download-header-text
+{
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+.download-image
+{
+	padding: 5px 5px 5px 5px;
+}
+.blueline
+{
+	margin: 4px 0 4px 0;
+}
+.download-content
+{
+	padding: 10px 5px 5px 5px;
+	font-size: 12px;
+}
+.download-includes
+{
+	margin-top: 3px;
+	margin-bottom: 8px;
+	line-height: 24px;
+	font-style: italic;
+}
+.download-required
+{
+	color: red;
+	font-size: 11px;
+	text-align: center;
+}
+.download-italic
+{
+	font-style: italic;
+}
+.pay-with
+{
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+.billing-divider
+{
+	margin-top: 5px;
+	padding-bottom: 0px;
+	height: 1px;
+	color: #005588;
+}
+.billing-text
+{
+	color: #005588;
+	font-size: 10px;
+	margin-bottom: 3px;
+	text-align: center;
+}
+.payment-radio
+{
+	padding: 15px 10px 0 0;
+}
+.payment-value
+{
+	padding: 15px 0 0 0;
+}
+.terms
+{
+	text-align: center;
+	margin: 5px 0 25px 0;
+}
+.proceed-download
+{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.fraud-protection
+{
+	margin-bottom: 100px;
+}
+.paypal
+{
+	font-weight: bold;
+	padding-right: 5px;
+}

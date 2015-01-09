@@ -1,0 +1,121 @@
+/* Taken from, of course, alistapart
+/* http://www.alistapart.com/articles/holygrail
+/* http://www.alistapart.com/d/holygrail/example_2.html
+/* Modified with this HACK
+/* http://www.gerd-riesselmann.net/development/the-holy-grail-css-layout-fix-for-ie7
+/*
+/* IE Dynamic Expression to set the width */
+/*
+body {
+  min-width: 1060px;
+  width:expression(document.body.clientWidth < 1060 ? "1060px" : "100%" );
+}
+*/
+html {
+  width: 100%;
+}
+
+body {
+  text-align:center;
+	width: 100%;
+	min-width: 600px;  /* 2x LC width + RC width */
+	font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+	text-align:center;
+	padding: 0px;
+	margin:0px;
+}
+
+#placeholder {
+  width: 1%;
+  display: hidden;
+}
+
+#base_wrapper {
+	padding: 0px;
+	margin:0px;
+	top: -20px;
+}
+
+/* top header bar */
+#div01{
+  height: 80px;
+}
+
+/* main content container*/
+#centerdiv {
+  padding-left: 200px;   /* LC fullwidth */
+  padding-right: 220px;  /* RC fullwidth + CC padding */
+  min-height: 400px;
+}
+
+#div02{
+  float: left;
+  position: relative;
+  padding: 10px 10px;    /* CC padding */
+  width: 100%;
+    margin-bottom: 40px;
+  
+}
+
+/* left side content */
+#div03{
+  float: left;
+  position: relative;
+  width: 160px;          /* LC width */
+  padding: 0 10px;       /* LC padding */
+  right: 240px;          /* LC fullwidth + CC padding */
+  margin-left: -100%;
+}
+
+#base_wrapper > #centerdiv #div03 {
+  left: -200px; /* -LC width for others */
+  margin-left: expression(
+  document.all.div02.offsetWidth * -1 +
+  parseFloat(document.all.div02.currentStyle.paddingLeft) +
+  parseFloat(document.all.div03.currentStyle.paddingLeft) +
+  parseFloat(document.all.div03.currentStyle.paddingRight)
+  ); /* Fix for IE7 */
+}
+
+
+/* right side content */
+#div04 {
+  position: relative;
+  float: left;
+  width: 180px;          /* RC width */
+  padding: 0 10px;       /* RC padding */
+  margin-right: -220px;  /* RC fullwidth + CC padding */
+}
+
+/* footer content */
+#div05{
+  clear: both;
+  text-align: center;
+  position: absolute;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+* html #div05 { position: absolute;
+top:expression(eval(document.compatMode &&
+document.compatMode=='CSS1Compat') ?
+documentElement.scrollTop
++(documentElement.clientHeight-this.clientHeight) 
+: document.body.scrollTop
++(document.body.clientHeight-this.clientHeight));}
+
+#zzdiv{
+  display: none;
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index: 1010;
+  width: 98%;
+}
+
+.columnTitle{
+  float: left;
+  width: 200px;
+}

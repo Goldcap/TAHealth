@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\Evaluation" table="evaluation">
+    <indexes>
+      <index name="location" columns="fk_location_id"/>
+      <index name="presentation" columns="fk_presentation_id"/>
+      <index name="user" columns="fk_user_id"/>
+    </indexes>
+    <id name="evaluationId" type="integer" column="evaluation_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="fkLocationId" type="integer" column="fk_location_id" nullable="true"/>
+    <field name="fkPresentationId" type="integer" column="fk_presentation_id" nullable="true"/>
+    <field name="fkUserId" type="integer" column="fk_user_id" nullable="true"/>
+    <field name="evaluationQuestion" type="string" column="evaluation_question" length="255" nullable="true"/>
+    <field name="evaluationGrade" type="integer" column="evaluation_grade" nullable="true"/>
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/atom/tests/widget
+END
+test_FeedViewer_bind_sync.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/atom/tests/widget/test_FeedViewer_bind_sync.html
+END
+test_FeedViewer_bind_split_declarative.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/atom/tests/widget/test_FeedViewer_bind_split_declarative.html
+END
+test_FeedViewer_local.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/atom/tests/widget/test_FeedViewer_local.html
+END
+test_FeedViewer_bind.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/atom/tests/widget/test_FeedViewer_bind.html
+END
+samplefeed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/atom/tests/widget/samplefeed.xml
+END
+test_FeedViewer_local_declarative.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/atom/tests/widget/test_FeedViewer_local_declarative.html
+END
+samplefeedEdit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/atom/tests/widget/samplefeedEdit.xml
+END

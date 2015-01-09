@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\CmeCredit" table="cme_credit">
+    <id name="cmeCreditId" type="integer" column="cme_credit_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="fkUserId" type="integer" column="fk_user_id" nullable="true"/>
+    <field name="cmeCreditName" type="string" column="cme_credit_name" length="255" nullable="true"/>
+    <field name="cmeCreditDateAdded" type="datetime" column="cme_credit_date_added" nullable="true"/>
+    <field name="cmeCreditFilename" type="string" column="cme_credit_filename" length="255" nullable="true"/>
+    <field name="cmeCreditFilePath" type="string" column="cme_credit_file_path" length="255" nullable="true"/>
+  </entity>
+</doctrine-mapping>

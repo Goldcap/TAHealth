@@ -1,0 +1,21 @@
+<div dojoAttachPoint="WishlistContainer">
+  <span class="leftcol"> 
+    &nbsp;
+    <span id="wishlist_save"><a href="/wishlist">Save WishList</a> | 
+    <a href="#" dojoAttachPoint="WishlistLogin" dojoAttachEvent="onclick: signWishIn">Sign In</a>
+    </span>
+  </span>
+  <span class="centercol">
+    <a dojoAttachPoint="WishlistLogo" style="color: #FFFFFF; font-family: Verdana; font-size: 11px; font-weight: bold;">
+      <img src="/images/wishlist_center.jpg" width="390" height="39" border="0">
+    </a>
+  </span>
+  <span class="rightcol">
+    <a href="#" dojoAttachPoint="WishlistToggle" dojoAttachEvent="onclick: toggleWishlist">${toggle}</a>
+    &nbsp;
+  </span>
+  <!--<div id="products" dojoType="dojox.layout.ScrollPane" orientation="horizontal">-->
+  <div id="wishlist_products" dojoAttachPoint="WishlistProducts">
+    <div id="wishlist_items" dojoAttatchPoint="WishlistItems"></div>
+  </div>
+</div>

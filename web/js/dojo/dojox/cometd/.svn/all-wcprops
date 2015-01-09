@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd
+END
+RestChannels.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/RestChannels.js
+END
+_base.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/_base.js
+END
+longPollTransportFormEncoded.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/longPollTransportFormEncoded.js
+END
+HttpChannels.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/HttpChannels.js
+END
+timesync.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/timesync.js
+END
+ack.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/ack.js
+END
+longPollTransportJsonEncoded.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/longPollTransportJsonEncoded.js
+END
+callbackPollTransport.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/callbackPollTransport.js
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/README
+END
+longPollTransport.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/longPollTransport.js
+END
+timestamp.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojox/cometd/timestamp.js
+END

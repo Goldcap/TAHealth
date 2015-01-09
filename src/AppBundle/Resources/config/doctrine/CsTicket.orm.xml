@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\CsTicket" table="cs_ticket">
+    <id name="csTicketId" type="integer" column="cs_ticket_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="csTicketGuid" type="string" column="cs_ticket_guid" length="255" nullable="true"/>
+    <field name="csTicketSubject" type="string" column="cs_ticket_subject" length="255" nullable="true"/>
+    <field name="csTicketRecipient" type="string" column="cs_ticket_recipient" length="255" nullable="true"/>
+    <field name="csTicketAuthorEmail" type="string" column="cs_ticket_author_email" length="255" nullable="true"/>
+    <field name="csTicketAuthor" type="string" column="cs_ticket_author" length="255" nullable="true"/>
+    <field name="csTicketStatus" type="integer" column="cs_ticket_status" nullable="true"/>
+    <field name="csTicketPriority" type="integer" column="cs_ticket_priority" nullable="true"/>
+    <field name="csTicketDateCreated" type="datetime" column="cs_ticket_date_created" nullable="true"/>
+    <field name="csTicketIp" type="string" column="cs_ticket_ip" length="255" nullable="true"/>
+    <field name="csTicketUserAgent" type="string" column="cs_ticket_user_agent" length="255" nullable="true"/>
+    <field name="csTicketMessage" type="text" column="cs_ticket_message" length="65535" nullable="true"/>
+    <field name="csTicketData" type="text" column="cs_ticket_data" length="65535" nullable="true"/>
+  </entity>
+</doctrine-mapping>

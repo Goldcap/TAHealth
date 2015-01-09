@@ -1,0 +1,13 @@
+/* CSS Document */
+#centerdiv {
+  padding-left: 210px !important;   /* LC fullwidth */
+  padding-right: 0px !important;  /* RC fullwidth + CC padding */
+}
+
+#div02 {
+  width: 675px !important;
+}
+
+.downloads {
+  width: 675px !important;
+}

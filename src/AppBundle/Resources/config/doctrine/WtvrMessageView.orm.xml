@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\WtvrMessageView" table="wtvr_message_view">
+    <id name="wtvrMessageViewId" type="integer" column="wtvr_message_view_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="fkWtvrMessageId" type="integer" column="fk_wtvr_message_id" nullable="true"/>
+    <field name="fkMessageRecipientId" type="integer" column="fk_message_recipient_id" nullable="true"/>
+    <field name="wtvrMessageViewDateViewed" type="datetime" column="wtvr_message_view_date_viewed" nullable="true"/>
+    <field name="wtvrMessageViewIpAddress" type="string" column="wtvr_message_view_ip_address" length="20" nullable="true"/>
+    <field name="wtvrMessageViewBrowser" type="string" column="wtvr_message_view_browser" length="255" nullable="true"/>
+    <field name="wtvrMessageViewData" type="text" column="wtvr_message_view_data" length="65535" nullable="true"/>
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,4 @@
+<div dojoAttatchPoint="DojoBannerContainer">
+  <a dojoAttatchPoint="DojoBannerButton" dojoAttachEvent="onclick: showBanner">${button}</a>
+  <div dojoAttachPoint="DojoBannerCanvas"></div>
+</div>

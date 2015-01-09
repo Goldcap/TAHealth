@@ -1,0 +1,103 @@
+.column_Name {
+  float: left;
+  width: 60px;
+}
+.column_Code {
+  float: left;
+  width: 60px;
+}
+.column_URL {
+  float: left;
+  width: 200px;
+}
+.column_Count {
+  float: left;
+  width: 50px;
+}
+.column_File {
+  float: left;
+  width: 300px;
+}
+.column_Filetype {
+  float: left;
+  width: 50px;
+}
+.dijitDialogUnderlay {
+	background: #000 !important;
+	opacity: 0.8;
+}
+.dj_ie .dijitDialogUnderlay {
+	filter: alpha(opacity=80);
+}
+
+.dijitDialog {
+  width: 80% !important;
+  height: 400px !important;
+}
+
+#bannerTabContainer {
+  position: absolute !important;
+  z-index: 200 !important; 
+  width: 90% !important;
+  height: 90% !important;
+}
+#bannerTabContainer .dijitTabContainerTop-tabs {
+  position: absolute !important;
+  z-index: 200 !important; 
+}
+#affiliate_keyword {
+  display: none;
+}
+#affiliate_text {
+  display: none;
+}
+#dojo_widgets_banners_BannerPicker_0 a {
+  color: #000;
+}
+#affiliate {
+  float: left;
+}
+#banner_title {
+  text-indent: 5px;
+  font-size: 11px;
+}
+#AffiliateLinks_wrapper {
+  float: left;
+  margin-bottom: 20px;
+}
+
+#affiliate_link_wrapper {
+  float: left !important;
+}
+.menu {
+  float: left;
+}
+#affiliate {
+  margin-top: 15px !important;
+}
+
+#affiliate_link_wrapper #results {
+  width: 100%;
+}
+
+.listitem {
+  clear: both;
+  float: left;
+  width: 99%;
+  padding: 3px;
+  border-bottom: 1px solid grey;
+  text-align: left;
+}
+
+.listitem_1 {
+  background: #eee;
+  border-bottom: 0px solid transparent;
+  background: url('/images/horizontal_faderight.jpg') bottom no-repeat;
+  margin-top: 4px;
+  height: 22px;
+}
+
+.entry {
+  float: left;
+  padding-right: 5px;
+}

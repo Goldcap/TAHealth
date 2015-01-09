@@ -1,0 +1,53 @@
+#centerdiv {
+  padding-left: 15px !important;
+  padding-right: 15px !important;  /* RC fullwidth + CC padding */
+  min-height: 500px;
+  width: 880px !important;
+}
+
+* html #centerdiv {
+  padding-right: 0px !important;  /* RC fullwidth + CC padding */
+  padding-left: -100px !important;
+  margin: 0px !important;
+  height: 600px;
+  width: 900px !important;
+}
+
+#tabs ul {
+  position: relative;
+  left: 15px;
+}
+
+.search_result_wrapper, .category_result_wrapper {
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.faqHeadline{
+  background: #AFB47A;
+  font-size:12px;
+  font-weight: bold;
+  margin-top: 6px;
+  padding: 8px;
+  border: 1px solid white;
+  color: white;
+}
+
+.faqUL{
+  list-style-type: disc;
+  list-style-position:
+  inside;margin: 10px 0 12px 15px;
+  line-height: 18px;
+}
+
+.faqMore {margin: 0 0 10px 30px;}
+
+.faqBody{
+  margin: 3px 0 10px 5px;
+  background: #f9fbed;
+  border: 1px solid #e06919;
+  padding: 5px 5px 10px 10px;
+}
+
+.faqLink{ color: #e9823d;}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\CmsObjectRev" table="cms_object_rev">
+    <id name="cmsObjectRevId" type="integer" column="cms_object_rev_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="fkCmsObjectId" type="integer" column="fk_cms_object_id" nullable="true"/>
+    <field name="cmsObjectRevOwner" type="integer" column="cms_object_rev_owner" nullable="true"/>
+    <field name="cmsObjectRevCount" type="integer" column="cms_object_rev_count" nullable="true"/>
+    <field name="cmsObjectRevName" type="string" column="cms_object_rev_name" length="255" nullable="true"/>
+    <field name="cmsObjectRevTitle" type="string" column="cms_object_rev_title" length="255" nullable="true"/>
+    <field name="cmsObjectRevTeaser" type="text" column="cms_object_rev_teaser" length="65535" nullable="true"/>
+    <field name="cmsObjectRevText" type="text" column="cms_object_rev_text" length="65535" nullable="true"/>
+    <field name="cmsObjectRevProperties" type="text" column="cms_object_rev_properties" length="65535" nullable="true"/>
+    <field name="cmsObjectRevNote" type="text" column="cms_object_rev_note" length="65535" nullable="true"/>
+    <field name="cmsObjectRevDate" type="datetime" column="cms_object_rev_date" nullable="true"/>
+    <field name="cmsObjectStartDate" type="datetime" column="cms_object_start_date" nullable="true"/>
+    <field name="cmsObjectEndDate" type="datetime" column="cms_object_end_date" nullable="true"/>
+    <field name="cmsObjectRevFlag" type="integer" column="cms_object_rev_flag" nullable="true"/>
+  </entity>
+</doctrine-mapping>

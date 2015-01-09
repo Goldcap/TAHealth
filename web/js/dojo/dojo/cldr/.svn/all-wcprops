@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojo/cldr
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojo/cldr/LICENSE
+END
+supplemental.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojo/cldr/supplemental.js
+END
+monetary.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojo/cldr/monetary.js
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/www.ta-health-ed.com/!svn/ver/123/public/web/js/dojo/dojo/cldr/README
+END

@@ -1,0 +1,35 @@
+<p align="right">
+  <a href="http://www.tahealth.org">The TA Health Education Foundation</a>
+</p>
+<p>Dear {{ name }},
+</p>
+<p>Thank you for contacting TA Health Education Foundation.  Below is a copy of your inquiry.
+  <br />
+</p>
+<table cellpadding="5" cellspacing="0" border="1" style="border-width: 1px;;border-style: solid;border-color: black;border-collapse: collapse;" width="100%">
+  <tr>
+    <td valign="top" style="border-color:gray;">Date/Time:</td>
+    <td style="border-color:gray;">{{ "now"|date("H:i:s \O\n d/m/Y") }}</td>
+  </tr>
+  <tr>
+    <td width="33%" style="border-color:gray;" valign="top">Email Address:</td>
+    <td style="border-color:gray;">{{ email }}</td>
+  </tr>
+  <tr>
+    <td valign="top" style="border-color:gray;">Name:</td>
+    <td style="border-color:gray;">{{ name }}</td>
+  </tr>
+  <tr>
+    <td valign="top" style="border-color:gray;">Message:</td>
+    <td style="border-color:gray;">{{ message|raw }}</td>
+  </tr>
+</table>
+
+<br /><br />
+<hr>
+The TA Health Education Foundation<br />
+28623 Old Highway 87<br />
+Buffalo, Wy 82834<br />
+1-307-684-5833 Option 2<br />
+kirsten@tahealth.org<br /><br />
+<a href="http://www.tahealth.org">Visit Our Website</a>

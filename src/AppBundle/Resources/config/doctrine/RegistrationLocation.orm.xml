@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\RegistrationLocation" table="registration_location">
+    <indexes>
+      <index name="registration" columns="fk_registration_id"/>
+      <index name="location" columns="fk_location_id"/>
+    </indexes>
+    <id name="registrationLocationId" type="integer" column="registration_location_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="fkRegistrationId" type="integer" column="fk_registration_id" nullable="true"/>
+    <field name="fkLocationId" type="integer" column="fk_location_id" nullable="true"/>
+  </entity>
+</doctrine-mapping>

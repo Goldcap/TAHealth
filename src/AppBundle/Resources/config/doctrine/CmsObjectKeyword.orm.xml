@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\CmsObjectKeyword" table="cms_object_keyword">
+    <id name="cmsObjectKeywordId" type="integer" column="cms_object_keyword_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="cmsObjectKeywordName" type="string" column="cms_object_keyword_name" length="255" nullable="true"/>
+    <field name="cmsObjectKeywordDescription" type="text" column="cms_object_keyword_description" length="65535" nullable="true"/>
+    <field name="fkObjectId" type="integer" column="fk_object_id" nullable="true"/>
+    <field name="fkCmsObjectCategory" type="integer" column="fk_cms_object_category" nullable="true"/>
+  </entity>
+</doctrine-mapping>

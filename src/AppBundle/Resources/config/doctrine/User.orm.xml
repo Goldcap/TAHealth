@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\User" table="user">
+    <id name="userId" type="integer" column="user_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="userFname" type="string" column="user_fname" length="64" nullable="true"/>
+    <field name="userLname" type="string" column="user_lname" length="64" nullable="true"/>
+    <field name="userEmail" type="string" column="user_email" length="127" nullable="false"/>
+    <field name="userNickname" type="string" column="user_nickname" length="255" nullable="true"/>
+    <field name="userPassword" type="string" column="user_password" length="255" nullable="true"/>
+    <field name="userPasswordLegacy" type="string" column="user_password_legacy" length="30" nullable="true"/>
+    <field name="userKey" type="string" column="user_key" length="255" nullable="true"/>
+    <field name="userUal" type="string" column="user_ual" length="255" nullable="true"/>
+    <field name="userNotes" type="text" column="user_notes" length="65535" nullable="true"/>
+    <field name="userEnabled" type="integer" column="user_enabled" nullable="false"/>
+    <field name="userAutoAccount" type="boolean" column="user_auto_account" nullable="true"/>
+    <field name="userLastIpAddress" type="string" column="user_last_ip_address" length="15" nullable="true"/>
+    <field name="userLastLoginDate" type="datetime" column="user_last_login_date" nullable="true"/>
+    <field name="fkSiteId" type="integer" column="fk_site_id" nullable="true"/>
+    <field name="userIsValidEmail" type="boolean" column="user_is_valid_email" nullable="true"/>
+    <field name="userDateJoined" type="datetime" column="user_date_joined" nullable="true"/>
+    <field name="pconvert" type="boolean" column="pConvert" nullable="true"/>
+  </entity>
+</doctrine-mapping>

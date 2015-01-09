@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\CmsObjectGroup" table="cms_object_group">
+    <id name="cmsObjectGroupId" type="integer" column="cms_object_group_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="fkCmsObjectParentId" type="integer" column="fk_cms_object_parent_id" nullable="true"/>
+    <field name="fkCmsObjectParentRev" type="integer" column="fk_cms_object_parent_rev" nullable="true"/>
+    <field name="fkCmsObjectChildId" type="integer" column="fk_cms_object_child_id" nullable="true"/>
+    <field name="fkCmsObjectChildRev" type="integer" column="fk_cms_object_child_rev" nullable="true"/>
+    <field name="cmsObjectGroupPosition" type="string" column="cms_object_group_position" length="255" nullable="true"/>
+    <field name="cmsObjectGroupPriority" type="integer" column="cms_object_group_priority" nullable="true"/>
+  </entity>
+</doctrine-mapping>

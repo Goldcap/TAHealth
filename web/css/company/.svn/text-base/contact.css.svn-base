@@ -1,0 +1,42 @@
+#centerdiv {
+  padding-right: 210px !important;  /* RC fullwidth + CC padding */
+  padding-left: 30px !important;
+  min-height: 500px;
+  width: 675px !important;
+}
+
+* html #centerdiv {
+  padding-right: 0px !important;  /* RC fullwidth + CC padding */
+  padding-left: -100px !important;
+  margin: 0px !important;
+  height: 600px;
+  width: 705px !important;
+}
+
+#div02 {
+  padding-top: 20px !important;
+  margin-left: 180px;
+  width: 100%;
+}
+
+* html #div02 {
+  margin-left: 90px !important;
+}
+
+#div03 {
+  padding-top: 20px !important;
+}
+
+*:first-child+html #div03{
+  position: relative;
+  left: -190px !important;
+}
+  
+.ui-accordion-data a, .ui-accordion-data .inset {
+  margin-left: 10px;
+}
+
+#tabs ul {
+  position: relative;
+  left: 50px;
+}

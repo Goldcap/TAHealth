@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\UserAction" table="user_action">
+    <id name="userActionId" type="integer" column="user_action_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="fkUserId" type="integer" column="fk_user_id" nullable="true"/>
+    <field name="fkActionId" type="integer" column="fk_action_id" nullable="true"/>
+    <field name="userActionIpAddress" type="string" column="user_action_ip_address" length="255" nullable="true"/>
+    <field name="userActionUserAgent" type="string" column="user_action_user_agent" length="255" nullable="true"/>
+    <field name="userActionDate" type="datetime" column="user_action_date" nullable="true"/>
+    <field name="userActionData" type="text" column="user_action_data" length="65535" nullable="true"/>
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\WtvrMessageQueueLocal" table="wtvr_message_queue_local">
+    <id name="wtvrMessageQueueLocalId" type="integer" column="wtvr_message_queue_local_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="fkWtvrMessageId" type="integer" column="fk_wtvr_message_id" nullable="true"/>
+    <field name="wtvrMessageQueueLocalDateAdded" type="datetime" column="wtvr_message_queue_local_date_added" nullable="true"/>
+    <field name="wtvrMessageQueueLocalDateSent" type="datetime" column="wtvr_message_queue_local_date_sent" nullable="true"/>
+    <field name="wtvrMessageQueueLocalBadRecipients" type="integer" column="wtvr_message_queue_local_bad_recipients" nullable="true"/>
+    <field name="wtvrMessageQueueLocalUnsubscribedRecipients" type="integer" column="wtvr_message_queue_local_unsubscribed_recipients" nullable="true"/>
+  </entity>
+</doctrine-mapping>

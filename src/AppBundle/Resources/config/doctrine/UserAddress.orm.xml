@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\UserAddress" table="user_address">
+    <indexes>
+      <index name="fk_user_id" columns="fk_user_id"/>
+    </indexes>
+    <id name="userAddressId" type="integer" column="user_address_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="fkUserId" type="integer" column="fk_user_id" nullable="true"/>
+    <field name="userPhone" type="string" column="user_phone" length="255" nullable="true"/>
+    <field name="userAddress" type="string" column="user_address" length="255" nullable="true"/>
+    <field name="userAddress2" type="string" column="user_address_2" length="255" nullable="true"/>
+    <field name="userCity" type="string" column="user_city" length="255" nullable="true"/>
+    <field name="userState" type="string" column="user_state" length="255" nullable="true"/>
+    <field name="userZip" type="string" column="user_zip" length="255" nullable="true"/>
+    <field name="userCountry" type="string" column="user_country" length="255" nullable="true"/>
+  </entity>
+</doctrine-mapping>

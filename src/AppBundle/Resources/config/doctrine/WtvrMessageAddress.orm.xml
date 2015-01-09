@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\WtvrMessageAddress" table="wtvr_message_address">
+    <id name="wtvrMessageAddressId" type="integer" column="wtvr_message_address_id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="wtvrMessageEmailaddress" type="string" column="wtvr_message_emailaddress" length="255" nullable="true"/>
+    <field name="wtvrMessageAddressValid" type="integer" column="wtvr_message_address_valid" nullable="true"/>
+  </entity>
+</doctrine-mapping>

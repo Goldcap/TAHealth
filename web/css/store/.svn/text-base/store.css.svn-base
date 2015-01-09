@@ -1,0 +1,99 @@
+.icon {
+  height: 80px;
+  margin-right: 10px;
+}
+
+.link {
+  position: relative;
+  top: -40px;
+}
+
+#product_form_wrapper {
+  clear: both;
+  width: 100%;
+}
+
+#testdrive_kit_instructions {
+  float: left;
+  width: 280px;
+  margin-bottom: 15px;
+}
+
+#testdrive_kit_product {
+  float: left;
+  width: 240px;
+  margin-bottom: 15px;
+}
+
+.testdrive_kit_product {
+  background-color: #d7e8f0;
+  border: 1px solid #005588;
+  width: 240px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.testdrive_title {
+  background-color: #005588; 
+  color: white; 
+  padding: 3px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.testdrive_product td {
+  padding-top: 5px;
+}
+
+.testdrive_price {
+  float: left;
+  width: 60px;
+  text-align: right;
+  padding-top: 3px;
+}
+
+.testdrive_text td {
+  text-align:center;
+  padding-bottom: 10px;
+}
+
+#organizer_product {
+  float: right;
+  width: 240px;
+  margin-bottom: 15px;
+  clear: both;
+}
+
+a.PDF:active {
+  text-decoration: none;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+a.PDF:link {
+  text-decoration: none;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a.PDF:visited {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+
+a.PDF:hover {
+  text-decoration: underline;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.FREE-Text {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  COLOR: red;
+  font-weight: bold;
+  font-size: 11pt;
+  padding: 0px 0px 5px 0px;
+  text-align: center;
+}
